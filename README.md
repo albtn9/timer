@@ -31,11 +31,15 @@ O objetivo é validar os principais fluxos de cadastro, incluindo cenários de s
 
 ## Instalação
 
+Execute o comando abaixo para instalar todas as dependências necessárias para rodar os testes
+
 ```bash
 npm install
 ```
 
 ## Execução de Todos os Testes
+
+Este comando executa todos os testes automatizados (sucesso e erro) e gera um relatório consolidado
 
 ```bash
 npm run report:todos
@@ -54,6 +58,8 @@ npm run test:erro
 ```
 
 ## Relatório
+
+Após a execução, o relatório detalhado será gerado neste caminho
 
 ```bash
 cypress/reports/geral/index.html
